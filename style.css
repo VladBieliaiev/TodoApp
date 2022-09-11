@@ -95,14 +95,20 @@ body{
 }
 
 .task-item__delete{
-   background-color:#b1c3cc;
+   background-color: rgb(209, 140, 140);
    border: none;
+   border-radius: 15%;
+   padding: 0.3rem 0.4rem;
+   margin: 0 0 0 0.35rem;
+   text-align: center;
+   color:#fffefe;
 }
 
-.task-item__delete img{
-   width: 2rem;
-   height: 2rem;
+.task-item__delete:hover{
+   transition: 0.3s;
+   background-color: rgb(167, 84, 84);
 }
+
 
 .done{
    opacity: 0.5;

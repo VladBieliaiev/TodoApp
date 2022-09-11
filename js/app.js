@@ -48,7 +48,7 @@ const createTaskItem = (task, index) => {
          <div class="task-item__description" >${task.description}</div>
          <div class="buttons">
             <input onclick="completeTask(${index})" type="checkbox"${task.completed ? "checked" : ""} class="btn-complete">
-            <button onclick="deleteTask(${index})" id="delBtn" class="task-item__delete"><img src="/img/delete.svg" alt=""></button>
+            <button onclick="deleteTask(${index})" id="delBtn" class="task-item__delete">Del</button>
          </div>
       </div>`
 }
